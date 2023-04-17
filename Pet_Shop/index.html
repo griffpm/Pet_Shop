@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pet Shop</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="/img/pet-shop-logo.png" alt="logo">
+            <i class="fa-solid fa-burger fa-2xl" id="burger_menu" style="color: #ffffff;"></i>
+            <nav id="menu_content">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">News Letter</a></li>
+                    <li><a href="">Search</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="hero"  class="flex_center">
+            <div class="container">
+                <h2 class="flex_center">Discover the finest product for your pet</h2>
+                <p class="flex_center">A beautiful simple starter site with CSS integration</p>
+                <a href="" class="flex_center">Go to shop <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div id="disclaimer" class="flex_center">
+            <div class="container flex_center">
+                <div class="card">
+                    <i class="fa-solid fa-paw fa-2xl" id="i1"></i>
+                    <h3 class="flex_center">Pet-friendly Materials</h3>
+                    <p class="flex_center">We care about your pet as you do, and deliver the finest materials</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-truck-fast fa-2xl" id="i2"></i>
+                    <h3 class="flex_center">Free shipping</h3>
+                    <p class="flex_center">We care about your pet as you do, and deliver the finest materials</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-money-check-dollar fa-2xl" id="i3"></i>
+                    <h3 class="flex_center">Flexible payments</h3>
+                    <p class="flex_center">We care about your pet as you do, and deliver the finest materials</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container  flex_center">
+                    <img src="/img/toutou1.jpg" alt="chien_mignon" class="about_img"> 
+                
+                <div id="about_texte">
+                    <h2>We have been on business since 1995</h2>
+                    <p>We love our pet, so we created a shop that let you get prenium quality product for your little friend.</p>
+                    
+                            <div class="tabs"><!----------------onglet-01-accueil-------------------------->
+                                <div class="tab"><input id="tab-1" checked="checked" name="tab-group-1" type="radio" /> <label for="tab-1">Our Values</label>
+                                    <div class="content">
+                                        <p>Show pony anti-pattern for it's a simple lift and shift job the right info at the right time to the right people anti-pattern. Ping me table the discussion, so teams were able to drive adoption and awareness nor inovation is hot right now reach out</p>
+                                    </div>
+                                </div>
+                                <!----------------onglet-02-articles-------------------------->
+                                <div class="tab"><input id="tab-2" name="tab-group-1" type="radio" /> <label for="tab-2">Our Company</label>
+                                    <div class="content">
+                                        <p>Contenue 2</p>
+                                    </div>
+                                </div>
+                                <!----------------onglet-03-forum-------------------------->
+                                <div class="tab"><input id="tab-3" name="tab-group-1" type="radio" /> <label for="tab-3">Our Materials</label>
+                                    <div class="content">
+                                        <p>Content 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="shop">
+            <div class="container">
+                <div id="shop_texte" class="flex_center">
+                    <h2>Featured Products</h2>
+                    <div id="ligne"></div>
+                </div>
+
+                <div id="shop_list">
+                    <div class="card">
+                        <img src="/img/toutou2.webp" alt="TOUTOU2">
+                        <h4 class="flex_center">Sweater Bannane</h4>
+                        <p class="flex_center">€23.00</p>
+                        <a href="" class="btn flex_center">ADD TO CART</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="/img/toutou3.webp" alt="">
+                        <h4 class="flex_center">Dog Yellow Sweater</h4>
+                        <p class="flex_center">€44.00</p>
+                        <a href="" class="btn flex_center">ADD TO CART</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="/img/toutou4.webp" alt="">
+                        <h4 class="flex_center">Cute little pupppy Sweater</h4>
+                        <p class="flex_center">€65.00</p>
+                        <a href="" class="btn flex_center">ADD TO CART</a>
+                    </div>
+
+                </div>
+                    <a href="" id="btn2" class="flex_center">BROWSE ALL PRODUCTS</a>
+            </div>
+
+        </div>
+        <div id="newsletter">
+            <div class="container">
+                <h3 class="flex_center">Join our newsletter for specials deal</h3>
+                <div class="flex_top">
+                    <form class="card2">
+                        <div>
+                            <label for="name">Name<span>*</span> </label>
+                        </div>
+                        <div>
+                            <input type="text" name="name" id="name" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email">Email<span>*</span></label>
+                        </div>
+                        <div>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <a href="" id="btn3" class="flex_center">Join Newsletter</a>
+                        </div>
+                    </form>
+                    <img src="/img/coco.webp" class="news_img card2" alt="peroquet">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container flex_center">
+                <p>Made with ❤️, HTML and CSS</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
